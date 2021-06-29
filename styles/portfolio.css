@@ -1,3 +1,10 @@
+:root {
+  --first-color: #f9fbfc;
+  --second-color: #a0dbdb;
+  --third-color: #56a7a7;
+  --fourth-color: #fcea90;
+}
+
 body {
   font-family: "Rubik", sans-serif;
 }
@@ -9,10 +16,10 @@ h1 {
 }
 
 .btn-branding {
-  background-color: #56a7a7;
-  border: 1px solid #fcea90;
+  background-color: var(--third-color);
+  border: 1px solid var(--fourth-color);
   border-radius: 6px;
-  color: #f9fbfc;
+  color: var(--first-color);
   font-weight: 300;
   margin-left: 20px;
   padding: 10px 35px;
@@ -21,7 +28,7 @@ h1 {
 
 .btn-branding:hover {
   cursor: pointer;
-  color: #f9fbfc;
+  color: var(--first-color);
   font-size: 17px;
   padding: 12px 40px;
   margin-left: 15px;
@@ -34,7 +41,7 @@ h1 {
 }
 
 .hero {
-  background-color: #a0dbdb;
+  background-color: var(--second-color);
 }
 
 .more-info {
@@ -42,4 +49,79 @@ h1 {
   font-weight: 500;
   padding-left: 20px;
   padding-right: 120px;
+}
+
+@media (max-width: 1199px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  .greetings {
+    font-size: 37px;
+  }
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  .greetings {
+    font-size: 32px;
+  }
+
+  .more-info {
+    font-size: 20px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .greetings {
+    font-size: 26px;
+  }
+
+  .more-info {
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding-right: 0;
+  }
+
+  .btn-branding {
+    font-size: 13px;
+    padding: 8px 28px;
+    transition: all 150ms ease-in-out;
+  }
+
+  .btn-branding:hover {
+    font-size: 14px;
+    padding: 10px 30px;
+    margin-left: 17px;
+    margin-top: -3px;
+  }
+}
+
+@media (max-width: 575px) {
+  .more-info {
+    padding: 0;
+    text-align: center;
+  }
+
+  .btn-branding {
+    display: block;
+    margin: 25px auto 0;
+    max-width: 120px;
+  }
+
+  .btn-branding:hover {
+    margin: 25px auto 0;
+    font-size: 13px;
+    padding: 8px 28px;
+  }
 }
