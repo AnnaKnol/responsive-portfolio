@@ -19,7 +19,7 @@ h1 {
   background-color: var(--third-color);
   border: 1px solid var(--fourth-color);
   border-radius: 6px;
-  color: var(--first-color);
+  color: var(--fourth-color);
   font-weight: 300;
   margin-left: 20px;
   padding: 10px 35px;
@@ -28,7 +28,7 @@ h1 {
 
 .btn-branding:hover {
   cursor: pointer;
-  color: var(--first-color);
+  color: var(--fourth-color);
   font-size: 17px;
   padding: 12px 40px;
   margin-left: 15px;
@@ -59,6 +59,10 @@ h1 {
   .greetings {
     font-size: 37px;
   }
+
+  .more-info {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -75,6 +79,12 @@ h1 {
   .more-info {
     font-size: 20px;
     padding-right: 60px;
+    margin-bottom: 10px;
+  }
+
+  .btn-branding {
+    padding: 10px 33px;
+    transition: all 150ms ease-in-out;
   }
 }
 
@@ -120,8 +130,9 @@ h1 {
   }
 
   .btn-branding:hover {
-    margin: 25px auto 0;
-    font-size: 13px;
-    padding: 8px 28px;
+    margin: 23px auto -2px;
+    font-size: 14px;
+    padding: 9px 32px;
+    max-width: 128px;
   }
 }
