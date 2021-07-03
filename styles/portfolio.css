@@ -1,8 +1,8 @@
 :root {
   --first-color: #f9fbfc;
-  --second-color: #a0dbdb;
-  --third-color: #56a7a7;
-  --fourth-color: #fcea90;
+  --branding-color: #a0dbdb;
+  --branding-deep-color: #56a7a7;
+  --accent-color: #fcea90;
 }
 
 body {
@@ -20,10 +20,10 @@ h2 {
 }
 
 .btn-branding {
-  background-color: var(--third-color);
-  border: 1px solid var(--fourth-color);
+  background-color: var(--branding-deep-color);
+  border: 1px solid var(--accent-color);
   border-radius: 6px;
-  color: var(--fourth-color);
+  color: var(--accent-color);
   font-weight: 300;
   margin-left: 20px;
   padding: 10px 35px;
@@ -45,7 +45,7 @@ h2 {
 }
 
 .hero {
-  background-color: var(--second-color);
+  background-color: var(--branding-color);
 }
 
 .more-info {
@@ -65,10 +65,10 @@ h2 {
 }
 
 .img-container {
-  background-color: rgba(252, 234, 144, 0.5);
+  background-color: rgba(160, 219, 219, 0.7);
   width: 100%;
-  height: 341px;
-  padding: 7px;
+  height: 342px;
+  padding: 8px;
 }
 
 @media (max-width: 1199px) {
