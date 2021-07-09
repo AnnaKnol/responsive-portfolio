@@ -80,6 +80,16 @@ ul {
   word-spacing: 5px;
 }
 
+.about-skills {
+  font-size: 56px;
+  margin: 50px auto 10px;
+}
+
+.paragraph-to-projects {
+  font-size: 30px;
+  text-align: end;
+}
+
 @media (max-width: 1199px) {
   h1 {
     font-size: 80px;
