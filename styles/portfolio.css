@@ -19,7 +19,13 @@ h2 {
   text-align: center;
 }
 
-img {
+ul {
+  list-style: none;
+  text-align: center;
+  font-weight: 300;
+}
+
+.project-image {
   border: 8px solid rgba(160, 219, 219, 0.7);
 }
 
