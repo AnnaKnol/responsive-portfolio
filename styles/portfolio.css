@@ -74,6 +74,12 @@ ul {
   text-align: end;
 }
 
+.about-me {
+  font-weight: 300;
+  line-height: 1.6;
+  word-spacing: 5px;
+}
+
 @media (max-width: 1199px) {
   h1 {
     font-size: 80px;
