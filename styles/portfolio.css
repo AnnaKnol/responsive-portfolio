@@ -25,8 +25,19 @@ ul {
   font-weight: 300;
 }
 
-.project-image {
-  border: 8px solid rgba(160, 219, 219, 0.7);
+.about {
+  text-align: end;
+}
+
+.about-me {
+  font-weight: 300;
+  line-height: 1.6;
+  word-spacing: 5px;
+}
+
+.about-skills {
+  font-size: 56px;
+  margin: 50px auto 10px;
 }
 
 .btn-branding {
@@ -67,30 +78,19 @@ ul {
   padding-right: 120px;
 }
 
+.paragraph-to-projects {
+  font-size: 30px;
+  text-align: end;
+}
+
+.project-image {
+  border: 8px solid rgba(160, 219, 219, 0.7);
+}
+
 .skills-needed {
   font-weight: 300;
   margin: 5px;
   opacity: 70%;
-  text-align: end;
-}
-
-.about {
-  text-align: end;
-}
-
-.about-me {
-  font-weight: 300;
-  line-height: 1.6;
-  word-spacing: 5px;
-}
-
-.about-skills {
-  font-size: 56px;
-  margin: 50px auto 10px;
-}
-
-.paragraph-to-projects {
-  font-size: 30px;
   text-align: end;
 }
 
@@ -131,6 +131,11 @@ ul {
     font-size: 15px;
   }
 
+  .btn-branding {
+    padding: 10px 33px;
+    transition: all 150ms ease-in-out;
+  }
+
   .greetings {
     font-size: 32px;
   }
@@ -141,11 +146,6 @@ ul {
     margin-bottom: 10px;
   }
 
-  .btn-branding {
-    padding: 10px 33px;
-    transition: all 150ms ease-in-out;
-  }
-
   .paragraph-to-projects {
     font-size: 24px;
   }
@@ -154,29 +154,6 @@ ul {
 @media (max-width: 767px) {
   h1 {
     font-size: 48px;
-  }
-
-  .greetings {
-    font-size: 26px;
-  }
-
-  .more-info {
-    font-size: 16px;
-    margin-bottom: 8px;
-    padding-right: 0;
-  }
-
-  .btn-branding {
-    font-size: 13px;
-    padding: 8px 28px;
-    transition: all 150ms ease-in-out;
-  }
-
-  .btn-branding:hover {
-    font-size: 14px;
-    padding: 10px 30px;
-    margin-left: 17px;
-    margin-top: -3px;
   }
 
   .about {
@@ -192,8 +169,27 @@ ul {
     font-size: 44px;
   }
 
-  .skills {
-    margin: 20px 30px 40px 0;
+  .btn-branding {
+    font-size: 13px;
+    padding: 8px 28px;
+    transition: all 150ms ease-in-out;
+  }
+
+  .btn-branding:hover {
+    font-size: 14px;
+    padding: 10px 30px;
+    margin-left: 17px;
+    margin-top: -3px;
+  }
+
+  .greetings {
+    font-size: 26px;
+  }
+
+  .more-info {
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding-right: 0;
   }
 
   .paragraph-to-projects {
@@ -209,6 +205,10 @@ ul {
   .projects-button .btn-branding {
     margin-left: 0;
   }
+
+  .skills {
+    margin: 20px 30px 40px 0;
+  }
 }
 
 @media (max-width: 575px) {
@@ -217,9 +217,8 @@ ul {
     line-height: 1;
   }
 
-  .more-info {
-    padding: 0;
-    text-align: center;
+  .about-me {
+    margin: 0 40px;
   }
 
   .about-me-button {
@@ -238,8 +237,9 @@ ul {
     margin: -1px auto -2px;
   }
 
-  .about-me {
-    margin: 0 40px;
+  .more-info {
+    padding: 0;
+    text-align: center;
   }
 
   .skills {
@@ -252,15 +252,15 @@ ul {
     font-size: 12px;
   }
 
-  .skills-needed {
-    font-size: 12px;
-  }
-
   .about {
     font-size: 48px;
   }
 
   .about-me {
     margin: 0 20px;
+  }
+
+  .skills-needed {
+    font-size: 12px;
   }
 }
