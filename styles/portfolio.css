@@ -93,6 +93,7 @@ ul {
 .shecodes-link:hover {
   color: var(--branding-deep-color);
   text-decoration: underline;
+  cursor: default;
 }
 
 .skills-needed {
@@ -111,7 +112,45 @@ ul {
 }
 
 .timeline .row {
-  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.timeline-badge {
+  font-weight: 300;
+  text-align: center;
+}
+
+.timeline-badge p {
+  position: relative;
+  top: -15px;
+  left: 60px;
+}
+
+.timeline-badge:before {
+  position: absolute;
+  left: 50%;
+  margin-left: -6px;
+  content: " ";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  border: 6px solid var(--branding-color);
+}
+
+.timeline-line:before {
+  background-color: var(--accent-color);
+  content: " ";
+  left: 50%;
+  margin-left: -1.5px;
+  position: absolute;
+  top: 10px;
+  bottom: 15px;
+  width: 3px;
+}
+
+.timeline-wrapper {
+  position: relative;
 }
 
 @media (max-width: 1199px) {
