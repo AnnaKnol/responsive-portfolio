@@ -15,24 +15,10 @@ h1 {
   line-height: 1;
 }
 
-h2 {
-  text-align: center;
-}
-
 ul {
   list-style: none;
   text-align: center;
   font-weight: 300;
-}
-
-.hero-title {
-  text-align: end;
-}
-
-.hero-paragraph {
-  font-weight: 300;
-  line-height: 1.6;
-  word-spacing: 5px;
 }
 
 .about-skills {
@@ -70,6 +56,16 @@ ul {
   background-color: var(--branding-color);
 }
 
+.hero-title {
+  text-align: end;
+}
+
+.hero-paragraph {
+  font-weight: 300;
+  line-height: 1.6;
+  word-spacing: 5px;
+}
+
 .more-info {
   font-size: 24px;
   font-weight: 500;
@@ -100,16 +96,16 @@ ul {
     font-size: 80px;
   }
 
+  .greetings {
+    font-size: 37px;
+  }
+
   .hero-title {
     margin-top: 60px;
   }
 
   .hero-title.work {
     margin-top: 45px;
-  }
-
-  .greetings {
-    font-size: 37px;
   }
 
   .more-info {
@@ -128,14 +124,6 @@ ul {
     line-height: 1.4;
   }
 
-  .hero-title {
-    font-size: 60px;
-  }
-
-  .hero-paragraph {
-    font-size: 15px;
-  }
-
   .btn-branding {
     padding: 10px 33px;
     transition: all 150ms ease-in-out;
@@ -143,6 +131,14 @@ ul {
 
   .greetings {
     font-size: 32px;
+  }
+
+  .hero-title {
+    font-size: 60px;
+  }
+
+  .hero-paragraph {
+    font-size: 15px;
   }
 
   .more-info {
@@ -159,15 +155,6 @@ ul {
 @media (max-width: 767px) {
   h1 {
     font-size: 48px;
-  }
-
-  .hero-title {
-    text-align: center;
-    margin: 20px auto;
-  }
-
-  .hero-paragraph {
-    text-align: center;
   }
 
   .about-skills {
@@ -189,6 +176,15 @@ ul {
 
   .greetings {
     font-size: 26px;
+  }
+
+  .hero-title {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .hero-paragraph {
+    text-align: center;
   }
 
   .more-info {
@@ -222,10 +218,6 @@ ul {
     line-height: 1;
   }
 
-  .hero-paragraph {
-    margin: 0 40px;
-  }
-
   .about-me-button {
     display: flex;
     justify-content: center;
@@ -240,6 +232,10 @@ ul {
     font-size: 14px;
     padding: 9px 32px;
     margin: -1px auto -2px;
+  }
+
+  .hero-paragraph {
+    margin: 0 40px;
   }
 
   .more-info {
