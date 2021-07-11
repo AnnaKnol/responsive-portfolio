@@ -25,11 +25,11 @@ ul {
   font-weight: 300;
 }
 
-.about {
+.hero-title {
   text-align: end;
 }
 
-.about-me {
+.hero-paragraph {
   font-weight: 300;
   line-height: 1.6;
   word-spacing: 5px;
@@ -100,8 +100,12 @@ ul {
     font-size: 80px;
   }
 
-  .about {
+  .hero-title {
     margin-top: 60px;
+  }
+
+  .hero-title.work {
+    margin-top: 45px;
   }
 
   .greetings {
@@ -124,11 +128,11 @@ ul {
     line-height: 1.4;
   }
 
-  .about {
+  .hero-title {
     font-size: 60px;
   }
 
-  .about-me {
+  .hero-paragraph {
     font-size: 15px;
   }
 
@@ -157,12 +161,12 @@ ul {
     font-size: 48px;
   }
 
-  .about {
+  .hero-title {
     text-align: center;
     margin: 20px auto;
   }
 
-  .about-me {
+  .hero-paragraph {
     text-align: center;
   }
 
@@ -218,7 +222,7 @@ ul {
     line-height: 1;
   }
 
-  .about-me {
+  .hero-paragraph {
     margin: 0 40px;
   }
 
@@ -253,11 +257,11 @@ ul {
     font-size: 12px;
   }
 
-  .about {
+  .hero-title {
     font-size: 48px;
   }
 
-  .about-me {
+  .hero-paragraph {
     margin: 0 20px;
   }
 
