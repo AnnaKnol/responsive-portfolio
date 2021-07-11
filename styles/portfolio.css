@@ -99,6 +99,10 @@ ul {
   border: 8px solid rgba(160, 219, 219, 0.7);
 }
 
+.project-skills {
+  color: var(--branding-deep-color);
+}
+
 .shecodes-link {
   color: var(--branding-deep-color);
   text-decoration: none;
@@ -192,6 +196,12 @@ ul {
   .paragraph-to-projects {
     font-size: 26px;
   }
+
+  .skills-paragraph {
+    font-size: 19px;
+    margin-right: -12px;
+    margin-top: 12px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -214,8 +224,16 @@ ul {
     font-size: 60px;
   }
 
+  .hero-title.work {
+    margin-top: 26px;
+  }
+
   .hero-paragraph {
     font-size: 15px;
+  }
+
+  .hero-paragraph.work {
+    margin-top: 30px;
   }
 
   .more-info {
@@ -226,6 +244,23 @@ ul {
 
   .paragraph-to-projects {
     font-size: 24px;
+  }
+
+  .project-content {
+    text-align: center;
+  }
+
+  .project-content p {
+    line-height: 1.7;
+    margin: 30px auto;
+  }
+
+  .timeline .btn-branding {
+    margin-left: 0;
+  }
+
+  .timeline .row {
+    margin-bottom: 8px;
   }
 }
 
@@ -264,6 +299,10 @@ ul {
     text-align: center;
   }
 
+  .hero-paragraph.work {
+    margin-top: 0;
+  }
+
   .more-info {
     font-size: 16px;
     margin-bottom: 8px;
@@ -286,6 +325,10 @@ ul {
 
   .skills {
     margin: 20px 30px 40px 0;
+  }
+
+  .timeline .btn-branding:hover {
+    margin-left: 0;
   }
 }
 
@@ -322,6 +365,10 @@ ul {
 
   .skills {
     margin: 25px 20px 20px 0;
+  }
+
+  .timeline .btn-branding:hover {
+    margin: -1px 0 -2px;
   }
 }
 
