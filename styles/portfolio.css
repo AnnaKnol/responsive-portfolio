@@ -84,11 +84,34 @@ ul {
   border: 8px solid rgba(160, 219, 219, 0.7);
 }
 
+.shecodes-link {
+  color: var(--branding-deep-color);
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.shecodes-link:hover {
+  color: var(--branding-deep-color);
+  text-decoration: underline;
+}
+
 .skills-needed {
   font-weight: 300;
   margin: 5px;
   opacity: 70%;
   text-align: end;
+}
+
+.skills-paragraph {
+  font-size: 36px;
+}
+
+.timeline p {
+  font-weight: 300;
+}
+
+.timeline .row {
+  margin-top: 40px;
 }
 
 @media (max-width: 1199px) {
