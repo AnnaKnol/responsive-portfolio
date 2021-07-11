@@ -26,6 +26,21 @@ ul {
   margin: 50px auto 10px;
 }
 
+.anchor-link {
+  color: #000;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.anchor-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.anchor-link img:hover {
+  border-color: var(--branding-deep-color);
+}
+
 .btn-branding {
   background-color: var(--branding-deep-color);
   border: 1px solid var(--accent-color);
