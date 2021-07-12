@@ -21,6 +21,45 @@ h3 {
   margin-bottom: 15px;
 }
 
+nav {
+  background-color: var(--first-color);
+}
+
+nav li {
+  display: inline;
+  margin-left: 12px;
+}
+
+nav li a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  transition: all 130ms ease-in-out;
+}
+
+nav li a:hover {
+  color: var(--branding-color);
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav .active {
+  color: var(--branding-color);
+}
+
+nav .name {
+  color: var(--branding-deep-color);
+  cursor: default;
+  font-size: 24px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+nav .name:hover {
+  cursor: default;
+}
+
 ul {
   list-style: none;
   text-align: center;
@@ -407,6 +446,10 @@ ul {
 @media (max-width: 344px) {
   ul {
     font-size: 12px;
+  }
+
+  ul a {
+    line-height: 24px;
   }
 
   .content {
