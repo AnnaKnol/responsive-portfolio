@@ -142,7 +142,8 @@ ul {
 .timeline-badge p {
   position: relative;
   top: -15px;
-  left: 60px;
+  left: 52%;
+  width: fit-content;
 }
 
 .timeline-badge:before {
@@ -201,6 +202,10 @@ ul {
     font-size: 19px;
     margin-right: -12px;
     margin-top: 12px;
+  }
+
+  .timeline-badge p {
+    left: 53%;
   }
 }
 
@@ -329,6 +334,10 @@ ul {
 
   .timeline .btn-branding:hover {
     margin-left: 0;
+  }
+
+  .timeline-badge p {
+    left: 55%;
   }
 }
 
