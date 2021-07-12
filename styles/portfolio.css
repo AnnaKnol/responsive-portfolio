@@ -9,6 +9,11 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+footer {
+  background-color: var(--branding-color);
+  line-height: 50px;
+}
+
 h1 {
   font-size: 96px;
   font-weight: 600;
@@ -107,8 +112,30 @@ ul {
   margin-bottom: -3px;
 }
 
+.btn-footer {
+  border: 3px solid var(--branding-deep-color);
+  border-radius: 6px;
+  color: var(--branding-deep-color);
+  font-weight: 500;
+  padding: 10px 35px;
+  transition: all 130ms ease-in-out;
+}
+
+.btn-footer:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.coded-by {
+  font-weight: 300;
+}
+
+.contact {
+  text-align: center;
+}
+
 .content {
-  margin: 80px auto;
+  margin: 80px auto 40px;
   text-align: center;
 }
 
@@ -143,6 +170,26 @@ ul {
   word-spacing: 5px;
 }
 
+.icons {
+  font-size: 36px;
+  text-align: center;
+}
+
+.icons a {
+  color: var(--branding-deep-color);
+  margin: 0 10px;
+  text-decoration: none;
+  transition: all 130ms ease-in-out;
+}
+
+.icons a:hover {
+  color: var(--accent-color);
+}
+
+.icons.small-screen {
+  font-size: 50px;
+}
+
 .more-info {
   font-size: 24px;
   font-weight: 500;
@@ -163,6 +210,17 @@ ul {
 
 .project-skills {
   color: var(--branding-deep-color);
+}
+
+.repository-link {
+  color: black;
+  transition: all 20ms ease-in-out;
+}
+
+.repository-link:hover {
+  color: var(--accent-color);
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .shecodes-link {
@@ -240,6 +298,19 @@ ul {
     font-size: 80px;
   }
 
+  .coded-by {
+    font-size: 14px;
+  }
+
+  .contact {
+    font-size: 16px;
+  }
+
+  .repository-link:hover {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
   .greetings {
     font-size: 37px;
   }
@@ -281,6 +352,14 @@ ul {
   .btn-branding {
     padding: 10px 33px;
     transition: all 130ms ease-in-out;
+  }
+
+  .coded-by {
+    line-height: 25px;
+  }
+
+  .contact {
+    line-height: 50px;
   }
 
   .greetings {
@@ -351,6 +430,15 @@ ul {
     padding: 10px 30px;
     margin-left: 17px;
     margin-top: -3px;
+  }
+
+  .btn-footer {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .contact {
+    line-height: 30px;
   }
 
   .greetings {
@@ -425,6 +513,15 @@ ul {
     margin: -1px auto -2px;
   }
 
+  .coded-by {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .contact {
+    line-height: 25px;
+  }
+
   .hero-paragraph {
     margin: 0 40px;
   }
@@ -450,6 +547,10 @@ ul {
 
   ul a {
     line-height: 24px;
+  }
+
+  .contact {
+    line-height: 20px;
   }
 
   .content {
