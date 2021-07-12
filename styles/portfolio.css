@@ -15,6 +15,12 @@ h1 {
   line-height: 1;
 }
 
+h3 {
+  font-size: 42px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
 ul {
   list-style: none;
   text-align: center;
@@ -49,7 +55,7 @@ ul {
   font-weight: 300;
   margin-left: 20px;
   padding: 10px 35px;
-  transition: all 150ms ease-in-out;
+  transition: all 130ms ease-in-out;
 }
 
 .btn-branding:hover {
@@ -60,6 +66,23 @@ ul {
   margin-left: 15px;
   margin-top: -2px;
   margin-bottom: -3px;
+}
+
+.content {
+  margin: 80px auto;
+  text-align: center;
+}
+
+.content a {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  transition: all 130ms ease-in-out;
+}
+
+.content a:hover {
+  color: var(--branding-deep-color);
 }
 
 .greetings {
@@ -186,7 +209,7 @@ ul {
     margin-top: 60px;
   }
 
-  .hero-title.work {
+  .hero-title.work-contact {
     margin-top: 45px;
   }
 
@@ -218,7 +241,7 @@ ul {
 
   .btn-branding {
     padding: 10px 33px;
-    transition: all 150ms ease-in-out;
+    transition: all 130ms ease-in-out;
   }
 
   .greetings {
@@ -229,7 +252,7 @@ ul {
     font-size: 60px;
   }
 
-  .hero-title.work {
+  .hero-title.work-contact {
     margin-top: 26px;
   }
 
@@ -237,7 +260,7 @@ ul {
     font-size: 15px;
   }
 
-  .hero-paragraph.work {
+  .hero-paragraph.work-contact {
     margin-top: 30px;
   }
 
@@ -281,7 +304,7 @@ ul {
   .btn-branding {
     font-size: 13px;
     padding: 8px 28px;
-    transition: all 150ms ease-in-out;
+    transition: all 130ms ease-in-out;
   }
 
   .btn-branding:hover {
@@ -304,7 +327,7 @@ ul {
     text-align: center;
   }
 
-  .hero-paragraph.work {
+  .hero-paragraph.work-contact {
     margin-top: 0;
   }
 
@@ -384,6 +407,10 @@ ul {
 @media (max-width: 344px) {
   ul {
     font-size: 12px;
+  }
+
+  .content {
+    margin: 50px auto;
   }
 
   .hero-title {
