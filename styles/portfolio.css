@@ -5,6 +5,15 @@
   --accent-color: #fcea90;
 }
 
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 body {
   font-family: "Rubik", sans-serif;
 }
@@ -221,6 +230,10 @@ ul {
   color: var(--accent-color);
   font-size: 15px;
   font-weight: 500;
+}
+
+.rotating {
+  animation: rotating 10s linear infinite;
 }
 
 .shecodes-link {
